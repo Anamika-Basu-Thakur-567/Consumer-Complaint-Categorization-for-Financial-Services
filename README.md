@@ -5,13 +5,13 @@ This project focuses on automating the process of classifying and routing custom
 The model is trained on a dataset of customer complaints and can predict the category for new, unseen complaints.
 
 ## Key Features
--**Extensive Text Preprocessing:** Implements a robust text cleaning pipeline which includes:
+- **Extensive Text Preprocessing:** Implements a robust text cleaning pipeline which includes:
    - Lowercasing text
    - Removing punctuation and special characters using regular expressions
    - Removing stopwords to filter out non-informative words
    - Lemmatization to reduce words to their base or root form
--**TF-IDF Feature Extraction:** Converts the cleaned text data into a numerical format using the Term Frequency-Inverse Document Frequency (TF-IDF) vectorizer, allowing machine learning models to process the text
--**Multi-Model Training and Evaluation:** Several classic machine learning models are trained and evaluated to find the best-performing classifier for this task, including:
+- **TF-IDF Feature Extraction:** Converts the cleaned text data into a numerical format using the Term Frequency-Inverse Document Frequency (TF-IDF) vectorizer, allowing machine learning models to process the text
+- **Multi-Model Training and Evaluation:** Several classic machine learning models are trained and evaluated to find the best-performing classifier for this task, including:
   - Logistic Regression
   - Decision Tree Classifier
   - Multinomial Naive Bayes
@@ -21,5 +21,5 @@ The model is trained on a dataset of customer complaints and can predict the cat
   - Simple RNN
   - LSTM
   - GRU
--**Model Performance Analysis:** Compares models based on key classification metrics, with a focus on the F1-Score to handle potential class imbalance.
--**Model Inference:** The final, best-performing model (Logistic Regression) is saved and used to make predictions on new, unseen complaint text.
+- **Model Performance Analysis:** Compares models based on key classification metrics, with a focus on the F1-Score to handle potential class imbalance.
+- **Model Inference:** The final, best-performing model (Logistic Regression) is saved and used to make predictions on new, unseen complaint text.
